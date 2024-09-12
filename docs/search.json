@@ -2,15 +2,15 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "About this site"
+    "text": "Hello, my name is Alex Wong, currently a student of the Master of Data Science Program at UBC. I hold a bachelor degree from UBC majoring in Economics and Statistics and have previously worked at Deloitte Vancouver as a senior analyst for 3.5 years."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "DLLM, Welcome",
+    "title": "Welcome to my site",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "!!!"
   }
 ]

@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "DLLM, Welcome"
+  title: "Alex Wong"
   navbar:
     left:
       - href: index.qmd

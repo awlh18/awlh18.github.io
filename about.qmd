@@ -1,5 +1,7 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
+Hello, my name is Alex Wong, currently a student of the Master of Data Science Program at UBC.
+I hold a bachelor degree from UBC majoring in Economics and Statistics and have previously worked 
+at Deloitte Vancouver as a senior analyst for 3.5 years. 
