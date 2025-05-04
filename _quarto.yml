@@ -5,14 +5,22 @@ project:
 website:
   title: "Alex Wong"
   navbar:
+    pinned: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: experience.qmd
+        text: Experience
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
+  page-footer: "© 2025 Alex Wong"
+  
 
 format:
   html:
-    theme: cosmo
+    theme: yeti
     css: styles.css
     toc: true
 

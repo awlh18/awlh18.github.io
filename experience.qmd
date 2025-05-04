@@ -1,0 +1,35 @@
+---
+title: "Experience"
+page-layout: full
+toc: false 
+---
+
+<br> 
+
+
+## 🎓 Education 
+**University of British Columbia**  
+*Master of Data Science*  
+*Anticipated Graduation: July 2025*  
+
+ 
+**University of British Columbia**  
+*Bachelor of Arts, Combined Major in Economics and Statistics*  
+*Graduated: 2020 (Class 1 Standing)*
+
+
+## 💼 Professional Experience 
+
+**Deloitte LLP, Vancouver, BC**  
+*Analyst / Senior Analyst, Transfer Pricing*  
+*Mar 2021 - Aug 2024*  
+
+- Assisted multinational companies in the development, documentation and defense of pricing policies for intercompany transactions involving tangible products, services, intangible property and financing arrangements. 
+
+- Led the development of a cost-allocation model for a public mining company to calculate intercompany management fee charges. Received commendation from the client for delivering the model ahead of the audit cycle deadline.
+
+- Managed multiple client engagements, oversaw end-to-end project execution including initial project scoping, budgeting, task delegation, client communication, and report delivery.
+
+- Prepared transfer pricing documentation, including functional and risk analyses, economic analyses, industry analyses, client interviews, and benchmarking studies, for clients in various industries.
+
+- Engaged in business development initiatives, successfully identified a business opportunity and supported the lead partner in securing an advisory engagement with a public biotechnology company in Q2 2023.

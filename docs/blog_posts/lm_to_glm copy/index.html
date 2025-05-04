@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Alex Wong">
+<meta name="dcterms.date" content="2025-01-18">
 
-<title>About Me – Alex Wong</title>
+<title>From Linear to Generalized Linear Models – Alex Wong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +25,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,18 +68,47 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Alex Wong</span>
     </a>
   </div>
@@ -89,16 +119,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About Me</span></a>
+    <a class="nav-link" href="../../experience.html"> 
+<span class="menu-text">Experience</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./experience.html"> 
-<span class="menu-text">Experience</span></a>
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -108,37 +142,151 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">From Linear to Generalized Linear Models</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Alex Wong </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">January 18, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction-to-generalized-linear-models" id="toc-introduction-to-generalized-linear-models" class="nav-link" data-scroll-target="#introduction-to-generalized-linear-models">Introduction to Generalized Linear Models</a>
+  <ul class="collapse">
+  <li><a href="#logistic-regression" id="toc-logistic-regression" class="nav-link" data-scroll-target="#logistic-regression">Logistic Regression</a></li>
+  <li><a href="#poisson-regression" id="toc-poisson-regression" class="nav-link" data-scroll-target="#poisson-regression">Poisson Regression</a></li>
+  <li><a href="#closing-note" id="toc-closing-note" class="nav-link" data-scroll-target="#closing-note">Closing note</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About Me</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>As data scientists, we are often interested in finding relationships between different variables in our datasets. For instance, we might want to find out how one’s education level can impact future earnings or how movement in the US stock market is related to economic indicators such as the country’s gross domestic product (‘GDP’).</p>
+<p>One of the commonly used tool to answer such questions is the linear regression model. At its core, a linear regression model seeks to establish a linear relationship between a dependent variable Y and one or more explanatory variables X.</p>
+<p>The mathematical formula of a linear regression is expressed as:</p>
+<p><span class="math inline">\(Yi = \beta_0 + \beta_1X_{1,i} + \beta_2X_{2,i} + \dots + \beta_kX_{k,i} + \varepsilon_{i}\)</span></p>
+<p>Where:</p>
+<ul>
+<li><strong><span class="math inline">\(Yi\)</span>:</strong> the dependent variable (the outcome we are interested in - annual salary or the S&amp;P 500 index from the examples above)<br>
+</li>
+<li><strong><span class="math inline">\(\beta_0\)</span>:</strong> the intercept of the line (the ‘starting’ or ‘base’ value of Y - what Y is when the X’s all are zero)<br>
+</li>
+<li><strong><span class="math inline">\(\beta_1, \beta_2, \dots, \beta_k\)</span>:</strong> the coefficients of the explanatory variables (how much each X contribute to Y)<br>
+</li>
+<li><strong><span class="math inline">\(\varepsilon_{i}\)</span>:</strong> the error term (the variation in Y that is not explained by the X’s in the model)</li>
+</ul>
+<p>To illustrate with an example, say we would like to understand how education level and years of experience in the current job impacts a person’s annual salary. To answer this question, we can set up a linear regression model:</p>
+<p><span class="math inline">\(\text{Annual Salary}_i = \beta_0 + \beta_1\text{Years of Education}_i + \beta_2\text{Years in Current Job}_{i} + \varepsilon_{i}\)</span></p>
+<p>Where:</p>
+<ul>
+<li><strong><span class="math inline">\(Yi\)</span>:</strong> the annual salary for the ith person<br>
+</li>
+<li><strong><span class="math inline">\(\beta_0\)</span>:</strong> the predicted salary of a person when 0 years of education and 0 years of experience in the current job (do note the intercept is mathematically necessary for the equation, but it doesn’t always make sense in real-world contexts)<br>
+</li>
+<li><strong><span class="math inline">\(\beta_1\)</span>:</strong> the increase in salary for each additional year of education<br>
+</li>
+<li><strong><span class="math inline">\(\beta_2\)</span>:</strong> the increase in salary for each additional year of experience<br>
+</li>
+<li><strong><span class="math inline">\(\varepsilon_{i}\)</span>:</strong> the error term (the difference between the actual salary and the predicted salary)</li>
+</ul>
+<section id="linear-regression-assumptions" class="level4">
+<h4 class="anchored" data-anchor-id="linear-regression-assumptions">Linear regression assumptions</h4>
+<p>While linear regression is versatile and simple to interpret, it relies on several key assumptions that may limit its applicability to real-world scenarios.</p>
+<ol type="1">
+<li><p><strong>Linearity:</strong> the relationship between the response variable (Y) and explanatory variables (X) are assumed to be linear. In other words, the response variable (Y) is expressed as a sum of the products of each individual explanatory variable and their corresponding coefficient term. This means changes in X’s have a consistent effect on Y.</p></li>
+<li><p><strong>Normality:</strong> the error terms (the difference between the predicted values and observed values) are assumed to be normally distributed.</p></li>
+<li><p><strong>Independence of errors:</strong> the error terms are independent of each other, meaning error made in predicting one observation should not be related to the error made in predicting another observation.</p></li>
+<li><p><strong>Homoscedasticity:</strong> the error terms have all the same variance: <span class="math inline">\(Var(\varepsilon_{i}) = \sigma^2\)</span></p></li>
+</ol>
+<p>One of the key restrictions of linear regression, particularly as a result of the linearity assumption, is that the model allows the response variable to take on any real value.</p>
+<p>However, this is often not the case in many scenarios where the response variable is binary or discrete by nature. For example, we may want to predict whether a customer will churn based on their past shopping behaviour (the response variable is binary - yes or no) or we want to model the number of car accidents in the city based on factors like weather or traffic volumne (the response variable here will be count data which are non-negative integers).</p>
+</section>
+</section>
+<section id="introduction-to-generalized-linear-models" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-generalized-linear-models">Introduction to Generalized Linear Models</h2>
+<p>The limitations of linear regression lead us to consider more flexible models and this is where Generalized Linear Models (‘GLMs’) come into play. GLMs is a broad class of models that extend traditional linear regression to handle a variety of response variables beyond just continuous data.</p>
+<p>A GLM consists of three components:</p>
+<ol type="1">
+<li><strong>Random component</strong>: Each response <span class="math inline">\(Yi, \dots, Yn\)</span> is a random variable with its respective mean <span class="math inline">\(\mu_i\)</span></li>
+<li><strong>Systematic component</strong>: How the k explanatory variables come into the model denoted as a linear combination: <span class="math inline">\(\eta_i = \beta_0 + \beta_1 X_{i,1} + \beta_2 X_{i,2} + \ldots + \beta_k X_{i,k}\)</span></li>
+<li><strong>Link function</strong>: The element that connects the random component with the systematic component <span class="math inline">\(\eta_i\)</span>. The connection is made through a function of <span class="math inline">\(\eta_i: h(\eta_i) = \mu_i\)</span></li>
+</ol>
+<p>Let us look at two common GLMs, the Logistic Regression and the Poisson Regression.</p>
+<section id="logistic-regression" class="level3">
+<h3 class="anchored" data-anchor-id="logistic-regression">Logistic Regression</h3>
+<p>The logistic regression is widely used in situations where the response variable is binary or categorical. Unlike linear regression, which predicts continuous outcomes, logistic regression predicts probabilities. Through the logit link function, it models the probability of an event occurring (e.g., success or failure, yes or no) into a linear relationship with the explanatory variables.</p>
+<ol type="1">
+<li><strong>Random component</strong>: Each response variable <span class="math inline">\(Yi\)</span> follows a Bernoulli distribution with its respective probability of success <span class="math inline">\(pi\)</span></li>
+<li><strong>Systematic component</strong>: The k explanatory variables come into the model denoted as a linear combination: <span class="math inline">\(\eta_i = \beta_0 + \beta_1 X_{i,1} + \beta_2 X_{i,2} + \ldots + \beta_k X_{i,k}\)</span></li>
+<li><strong>Link function</strong>: The logit link function connects the systematic component to the probability of success - <span class="math inline">\(\eta_i = \text{logit}(p_i) = \ln\left(\frac{p_i}{1-p_i}\right)\)</span></li>
+</ol>
+<p>For example:</p>
+<ul>
+<li><strong>Medical Diagnostics:</strong> Predicting the probability of a patient having heart disease (yes = 1, no = 0) based on age, cholesterol level, and blood pressure.<br>
+</li>
+<li><strong>Customer Retention:</strong> Estimating whether a customer will churn based on their activity patterns and demographic data.<br>
+</li>
+</ul>
+<p>The model outputs probabilities between 0 and 1, which can be converted into binary predictions using a decision threshold.</p>
+</section>
+<section id="poisson-regression" class="level3">
+<h3 class="anchored" data-anchor-id="poisson-regression">Poisson Regression</h3>
+<p>The poisson regression is another common GLM used for modelling count data, where the response variable represents the number of events occurring within a certain timeframe (e.g., number of sales per day, accidents per year).</p>
+<ol type="1">
+<li><strong>Random component</strong>: Each response variable <span class="math inline">\(Yi\)</span> follows a Poisson distribution with its respective rate parameter <span class="math inline">\(\lambda_i\)</span></li>
+<li><strong>Systematic component</strong>: The k explanatory variables come into the model denoted as a linear combination: <span class="math inline">\(\eta_i = \beta_0 + \beta_1 X_{i,1} + \beta_2 X_{i,2} + \ldots + \beta_k X_{i,k}\)</span></li>
+<li><strong>Link function</strong>: The log link function connects the systematic component to the rata parameter - <span class="math inline">\(\eta_i = \ln(\lambda_i)\)</span></li>
+</ol>
+<p>For example:</p>
+<ul>
+<li><strong>Healthcare:</strong> Modeling the number of hospital visits per month based on a patient’s age and health status.<br>
+</li>
+<li><strong>Traffic Analysis:</strong> Predicting the number of road accidents at an intersection based on traffic volume and weather conditions.</li>
+</ul>
+</section>
+<section id="closing-note" class="level3">
+<h3 class="anchored" data-anchor-id="closing-note">Closing note</h3>
+<p>In short, understanding linear and generalized linear models provides data scientists with powerful tools to model a wide range of data. While we’ve explored logistic and poisson regression, it’s worth noting that there are many other GLMs, each tailored to address specific types of data, making this family of models incredibly versatile.</p>
 
 
-<p>Hello, my name is Alex Wong, currently a student of the Master of Data Science Program at UBC. I hold a bachelor degree from UBC majoring in Economics and Statistics and have previously worked at Deloitte Vancouver as a senior analyst for 3.5 years.</p>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -562,6 +710,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2025 Alex Wong</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 

@@ -1,5 +1,36 @@
 ---
-title: "Welcome to my site"
+title: "Alex Wong"
+subtitle: "Aspiring Data Scientist"
+page-layout: full
+toc: false 
+about:
+  template: trestles
+  image-width: 22em
+  image-shape: round
+  image: img/solo.jpg
+  links:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/AlexLHWong/
+    - icon: github
+      href: https://github.com/awlh18 
+    - icon: envelope-at
+      href: mailto:likhang.wong97@gmail.com
 ---
 
-!!!
+
+##  About me 
+Hello and welcome to my page!  
+
+My name is Alex, a current Master of Data Science ("MDS") student at UBC.  
+
+Prior to joining MDS, I completed a Bachelor's degree from UBC majoring in Economics and Statistics. I have also spent three and a half years at Deloitte Vancouver's Transfer Pricing practice where I helped multinational companies develop and defend pricing strategies for their intercompany transactions.  
+
+In my free time, I enjoy playing soccer, snowboarding, and practicing latte art.
+
+### 🔧 Skills
+- **Languages**: Python, R, SQL
+- **Data Science Libraries**: Pandas, Numpy, scikit-learn, PyTorch, XGBoost
+- **Development & Deployment**: Git, Docker, AWS 
+
+
+
