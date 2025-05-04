@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Alex Wong",
     "section": "",
-    "text": "Hello and welcome to my page!\nMy name is Alex, a current Master of Data Science (“MDS”) student at UBC.\nPrior to joining MDS, I completed a Bachelor’s degree from UBC majoring in Economics and Statistics. I have also spent three and a half years at Deloitte Vancouver’s Transfer Pricing practice where I helped multinational companies develop and defend pricing strategies for their intercompany transactions.\nIn my free time, I enjoy playing soccer, snowboarding, and practicing latte art.\n\n\n\nLanguages: Python, R, SQL\nData Science Libraries: Pandas, Numpy, scikit-learn, PyTorch, XGBoost\nDevelopment & Deployment: Git, Docker, AWS"
+    "text": "My name is Alex and I am currently pursuing a Master of Data Science (MDS) at the University of British Columbia (UBC). I also hold a Bachelor’s degree from UBC majoring in Economics and Statistics.\nPrior to joining MDS, I have spent three and a half years at Deloitte Vancouver’s Transfer Pricing practice where I assisted multinational companies develop and defend pricing strategies for their cross-border intercompany transactions.\nOutside of work and school, I enjoy playing soccer, snowboarding, and practicing latte art.\n\n\n\nLanguages: Python, R, SQL\nData Science Libraries: Pandas, Numpy, scikit-learn, PyTorch, XGBoost\nDevelopment & Deployment: Git, Docker, AWS (EC2, S3, EMR, SageMaker)\n\n\n\n\n\n…"
   },
   {
     "objectID": "experience.html",
@@ -124,5 +124,33 @@
     "title": "Experience",
     "section": "💼 Professional Experience",
     "text": "💼 Professional Experience\nDeloitte LLP, Vancouver, BC\nAnalyst / Senior Analyst, Transfer Pricing\nMar 2021 - Aug 2024\n\nAssisted multinational companies in the development, documentation and defense of pricing policies for intercompany transactions involving tangible products, services, intangible property and financing arrangements.\nLed the development of a cost-allocation model for a public mining company to calculate intercompany management fee charges. Received commendation from the client for delivering the model ahead of the audit cycle deadline.\nManaged multiple client engagements, oversaw end-to-end project execution including initial project scoping, budgeting, task delegation, client communication, and report delivery.\nPrepared transfer pricing documentation, including functional and risk analyses, economic analyses, industry analyses, client interviews, and benchmarking studies, for clients in various industries.\nEngaged in business development initiatives, successfully identified a business opportunity and supported the lead partner in securing an advisory engagement with a public biotechnology company in Q2 2023."
+  },
+  {
+    "objectID": "index.html#hello-and-welcome-to-my-page",
+    "href": "index.html#hello-and-welcome-to-my-page",
+    "title": "Alex Wong",
+    "section": "",
+    "text": "Hello and welcome to my page!\nMy name is Alex, a current Master of Data Science (“MDS”) student at UBC.\nI hold a Bachelor’s degree from UBC majoring in Economics and Statistics. Prior to joining MDS, I have spent three and a half years at Deloitte Vancouver’s Transfer Pricing practice where I assisted multinational companies develop and defend pricing strategies for their cross-border intercompany transactions.\nIn my free time, I enjoy playing soccer, snowboarding, and practicing latte art.\n\n\n\nLanguages: Python, R, SQL\nData Science Libraries: Pandas, Numpy, scikit-learn, PyTorch, XGBoost\nDevelopment & Deployment: Git, Docker, AWS (EC2, S3, EMR, SageMaker)\n\n\n\n\n\nabc"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Alex Wong",
+    "section": "### Interests",
+    "text": "### Interests"
+  },
+  {
+    "objectID": "index.html#hello-and-welcome",
+    "href": "index.html#hello-and-welcome",
+    "title": "Alex Wong",
+    "section": "",
+    "text": "My name is Alex and I am currently pursuing a Master of Data Science (MDS) at the University of British Columbia (UBC). I also hold a Bachelor’s degree from UBC majoring in Economics and Statistics.\nPrior to joining MDS, I have spent three and a half years at Deloitte Vancouver’s Transfer Pricing practice where I assisted multinational companies develop and defend pricing strategies for their cross-border intercompany transactions.\nOutside of work and school, I enjoy playing soccer, snowboarding, and practicing latte art.\n\n\n\nLanguages: Python, R, SQL\nData Science Libraries: Pandas, Numpy, scikit-learn, PyTorch, XGBoost\nDevelopment & Deployment: Git, Docker, AWS (EC2, S3, EMR, SageMaker)\n\n\n\n\n\n…"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Work in progress!"
   }
 ]

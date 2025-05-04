@@ -18,19 +18,21 @@ about:
 ---
 
 
-##  About me 
-Hello and welcome to my page!  
+##  Hello and welcome! 
 
-My name is Alex, a current Master of Data Science ("MDS") student at UBC.  
+My name is Alex and I am currently pursuing a Master of Data Science (MDS) at the University of British Columbia (UBC). I also hold a Bachelor's degree from UBC majoring in Economics and Statistics. 
 
-Prior to joining MDS, I completed a Bachelor's degree from UBC majoring in Economics and Statistics. I have also spent three and a half years at Deloitte Vancouver's Transfer Pricing practice where I helped multinational companies develop and defend pricing strategies for their intercompany transactions.  
+Prior to joining MDS, I have spent three and a half years at Deloitte Vancouver's Transfer Pricing practice where I assisted multinational companies develop and defend pricing strategies for their cross-border intercompany transactions.  
 
-In my free time, I enjoy playing soccer, snowboarding, and practicing latte art.
+Outside of work and school, I enjoy playing soccer, snowboarding, and practicing latte art.
 
 ### 🔧 Skills
 - **Languages**: Python, R, SQL
 - **Data Science Libraries**: Pandas, Numpy, scikit-learn, PyTorch, XGBoost
-- **Development & Deployment**: Git, Docker, AWS 
+- **Development & Deployment**: Git, Docker, AWS (EC2, S3, EMR, SageMaker)
+
+### Interests 
+- ...
 
 
 
