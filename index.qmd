@@ -7,7 +7,7 @@ about:
   template: trestles
   image-width: 18em
   image-shape: rounded
-  image: img/solo.JPG
+  image: img/profile.JPG
   links:
     - icon: linkedin
       href: https://www.linkedin.com/in/AlexLHWong/
