@@ -11,7 +11,7 @@ toc: false
 **About the project:**  
 After learning the owner of a local dessert cafe wanted to understand how weather impacts sales, I was inspired to reach out and explore the question. I conducted a multiple regression analysis with historical sales data provided by the owner and weather data of Metro Vancouver sourced from [vancouver.weatherstats.ca](https://vancouver.weatherstats.ca/). The initial findings revealed statistically significant correlation between specific products sales and weather conditions. 
 
-Recognizing the potential value from the initial analysis, the project evolved into a business intelligence dashboard - SweetPulse. The tool provides real-time sales and order volume predictions based on weather forecasts and engineered operational features, as well as interactive visualizations to uncover actionable sales patterns. The objective is to support data-informed decision-making for daily operations planning.
+Recognizing the potential value from the initial analysis, the project evolved into a forecasting and analytics tool - SweetPulse. The tool provides real-time sales and order volume predictions based on weather forecasts and other operational inputs, as well as interactive visualizations to uncover actionable sales patterns. The objective is to support data-informed decision-making for daily operations planning.
 
 **Highlights:**  
 
