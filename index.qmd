@@ -1,38 +1,47 @@
 ---
 title: "Alex Wong"
-subtitle: "Aspiring Data Scientist"
+subtitle: "Aspiring data professional"
 page-layout: full
 toc: false 
 about:
   template: trestles
-  image-width: 22em
-  image-shape: round
-  image: img/solo.jpg
+  image-width: 18em
+  image-shape: rounded
+  image: img/UBC_20250626_MS_7786_edit.jpg
   links:
     - icon: linkedin
       href: https://www.linkedin.com/in/AlexLHWong/
     - icon: github
       href: https://github.com/awlh18 
     - icon: envelope-at
-      href: mailto:likhang.wong97@gmail.com
+      href: mailto:alexlhwong18@gmail.com
 ---
 
 
-##  Hello and welcome! 
+###  About me
 
-My name is Alex and I am currently pursuing a Master of Data Science (MDS) at the University of British Columbia (UBC). I also hold a Bachelor's degree from UBC majoring in Economics and Statistics. 
+I recently completed a Master of Data Science (MDS) from the University of British Columbia (UBC), building on my undergraduate background in Economics and Statistics. 
 
-Prior to joining MDS, I have spent three and a half years at Deloitte Vancouver's Transfer Pricing practice where I assisted multinational companies develop and defend pricing strategies for their cross-border intercompany transactions.  
+Prior to MDS, I spent three and a half years with [Deloitte Vancouver's Transfer Pricing practice](https://awlh18.github.io/experience.html) where I assisted multinational companies  develop, defend and document pricing strategies for their cross-border intercompany transactions. I found myself increasingly drawn to solving real-world problems through quantitative methods while working with complex financial and operational data, which led me to pursue further training in the field of data science.
 
-Outside of work and school, I enjoy playing soccer, snowboarding, and practicing latte art.
+I am interested in applying statistical and machine learning techniques to drive better decision-making and business outcomes. Some of my recent work include building a business intelligence tool for a Vancouver-based dessert cafe to support daily operational planning, and co-developing a machine learning pipeline for UBC Cybersecurity to reduce response time to malicious email threats. You can learn more about my data projects [here](https://awlh18.github.io/projects.html).
 
-### 🔧 Skills
+In my spare time, I enjoy playing soccer, pouring latte art, and snowboarding at local mountains.
+
+#### Education 
+
+- **Master of Data Science** | UBC, 2025  
+- **BA Combined Major in Economics and Statistics** | UBC, 2020
+
+#### Technical Skills
 - **Languages**: Python, R, SQL
-- **Data Science Libraries**: Pandas, Numpy, scikit-learn, PyTorch, XGBoost
-- **Development & Deployment**: Git, Docker, AWS (EC2, S3, EMR, SageMaker)
+- **Machine Learning**: Regression, ensemble methods (Random Forest, XGBoost), clustering (k-means, DBSCAN), neural networks 
+- **Statistics**: Hypothesis testing, A/B testing, multivariate testing, non-parametric tests, power analysis, time series, Bayesian inference
+- **Data Visualization:** Tableau, plotly, matplotlib, altair, ggplot2
+- **DevOps Tools:** Git, GitHub Actions, Make, Docker
+- **Cloud Platforms:** AWS (S3, EC2)
 
-### Interests 
-- ...
+
 
 
 
