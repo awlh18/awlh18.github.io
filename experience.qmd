@@ -1,35 +1,20 @@
 ---
-title: "Experience"
+title: "Professional Experience"
 page-layout: full
 toc: false 
 ---
 
-<br> 
-
-
-## 🎓 Education 
-**University of British Columbia**  
-*Master of Data Science*  
-*Anticipated Graduation: July 2025*  
-
- 
-**University of British Columbia**  
-*Bachelor of Arts, Combined Major in Economics and Statistics*  
-*Graduated: 2020 (Class 1 Standing)*
-
-
-## 💼 Professional Experience 
-
-**Deloitte LLP, Vancouver, BC**  
-*Analyst / Senior Analyst, Transfer Pricing*  
+**Analyst / Senior Analyst, Transfer Pricing,** *Deloitte LLP, Vancouver, BC*   
 *Mar 2021 - Aug 2024*  
 
-- Assisted multinational companies in the development, documentation and defense of pricing policies for intercompany transactions involving tangible products, services, intangible property and financing arrangements. 
+- Assisted multinational companies develop, defend and document pricing strategies for intercompany transactions involving goods, services, intellectual property, and financing.
 
-- Led the development of a cost-allocation model for a public mining company to calculate intercompany management fee charges. Received commendation from the client for delivering the model ahead of the audit cycle deadline.
+- Acted as engagement manager on multiple client projects; translated complex transfer pricing issues into clear project scopes, maintained proactive client communication to ensure smooth delivery, and presented findings effectively to non-technical stakeholders. 
 
-- Managed multiple client engagements, oversaw end-to-end project execution including initial project scoping, budgeting, task delegation, client communication, and report delivery.
+- Led the development of a management fee model for a public mining company to allocate charges upward of C\$5 million to foreign subsidiaries. Earned client commendation for clearly communicating model results to key stakeholders and delivering project on a tight audit deadline.
 
-- Prepared transfer pricing documentation, including functional and risk analyses, economic analyses, industry analyses, client interviews, and benchmarking studies, for clients in various industries.
+- Conducted cost analysis for a global apparel company by transforming unstructured data to evaluate Canadian manufacturing margins against market benchmarks; Communicated results to key stakeholders to support annual transfer pricing documentation.
 
-- Engaged in business development initiatives, successfully identified a business opportunity and supported the lead partner in securing an advisory engagement with a public biotechnology company in Q2 2023.
+- Developed financial and credit rating models using client financial and operational data to assess corporate creditworthiness and support pricing of intercompany financing arrangements. 
+
+- Identified a new business opportunity and supported the Lead Partner in securing an advisory engagement with a public biotech company in Q2 2023.
