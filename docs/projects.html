@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – Alex Wong</title>
+<title>Data Projects – Alex Wong</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,10 +99,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -111,23 +107,21 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">Data Projects</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -139,9 +133,63 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Work in progress!</p>
+<section id="sweetpulse" class="level4">
+<h4 class="anchored" data-anchor-id="sweetpulse">SweetPulse</h4>
+<p><em>Personal Project, Vancouver-based dessert cafe (name protected under NDA, references available upon request)</em><br>
+<a href="https://github.com/awlh18/SweetPulse">github.com/awlh18/SweetPulse</a></p>
+<p><strong>About the project:</strong><br>
+After learning the owner of a local dessert cafe wanted to understand how weather impacts sales, I was inspired to reach out and explore the question. I conducted a multiple regression analysis with historical sales data provided by the owner and weather data of Metro Vancouver sourced from <a href="https://vancouver.weatherstats.ca/">vancouver.weatherstats.ca</a>. The initial findings revealed statistically significant correlation between specific products sales and weather conditions.</p>
+<p>Recognizing the potential value from the initial analysis, the project evolved into a business intelligence dashboard - SweetPulse. The tool provides real-time sales and order volume predictions based on weather forecasts and engineered operational features, as well as interactive visualizations to uncover actionable sales patterns. The objective is to support data-informed decision-making for daily operations planning.</p>
+<p><strong>Highlights:</strong></p>
+<ul>
+<li><p>Trained and deployed Linear and Poisson Regression models using historical sales and weather data to forecast daily revenue and order volumes, achieving prediction errors within 8% of average sales and 10% of average orders.</p></li>
+<li><p>Incorporated model diagnostics to enable users monitor performance and validity of each forecasting model, helping guide future model retraining and selection efforts.</p></li>
+<li><p>Developed a pipeline that enables cafe staff to easily retrain prediction models and refresh dashboard visualizations as new sales data becomes available.</p></li>
+</ul>
+<p><strong>Tools used:</strong></p>
+<ul>
+<li>Python, pandas, NumPy, scikit-learn, statsmodels, Docker, Streamlit, plotly, pandera, Make</li>
+</ul>
+</section>
+<section id="phishsense-2.0" class="level4">
+<h4 class="anchored" data-anchor-id="phishsense-2.0">PhishSense 2.0</h4>
+<p><em>UBC MDS Capstone Project, UBC Cybersecurity</em><br>
+<a href="https://github.com/awlh18/phishsense-2.0">github.com/awlh18/phishsense-2.0</a></p>
+<p><strong>About the project:</strong><br>
+One of UBC Cybersecurity’s core responsibilities involves protecting UBC email users from phishing attacks. While the team currently employs a machine learning pipeline to classify reported emails, its limited performance necessitates manual review by a human analyst to determine the appropriate course of action – a process made difficult by the high-volume of reported emails and time sensitivity in addressing these threats.</p>
+<p>The project aims to develop a new machine learning pipeline that accurately identifies benign emails from suspicious emails, thereby reducing the number of tickets requiring manual review. The solution shortens response time to true malicious threats, reduces manual workload, and strengthens UBC’s cybersecurity.</p>
+<p><strong>Highlights:</strong></p>
+<ul>
+<li><p>Built a data preprocessing pipeline to transform raw email files into structured tabular data with extracted metadata and content features for downstream analysis and model training.</p></li>
+<li><p>Explored a range of approaches, including classical machine learning models, Bidirectional Encoder Representations from Transformers (BERT) based models, and large language models (LLMs).</p></li>
+<li><p>Final data product employs a stacking classifier with four XGBoost base-estimators (each learning from a different set of email features) and a Support Vector Classifier as the final classifier.</p></li>
+<li><p>Achieved an F1-Score of 0.75 for benign email classification, representing an improvement of 0.20 over existing model. Performance gain projected to reduce manual review time by 10 hours per month.</p></li>
+<li><p>Incorporated pipeline into a containerized web service for integration into UBC Cybersecurity’s existing incident response workflow.</p></li>
+<li><p>Presented model design and projected operational efficiencies to UBC IT leadership, translating technical results into business insights.</p></li>
+</ul>
+<p><strong>Tools used:</strong></p>
+<ul>
+<li>Python, pandas, scikit-learn, XGBoost, Podman, matplotlib, Flask, pandera, email, Click, Make, regex</li>
+</ul>
+</section>
+<section id="linreg_ally" class="level4">
+<h4 class="anchored" data-anchor-id="linreg_ally">linreg_ally</h4>
+<p><em>UBC MDS Academic Project</em><br>
+<a href="https://github.com/UBC-MDS/linreg_ally">github.com/UBC-MDS/linreg_ally</a></p>
+<p><strong>About the project:</strong><br>
+linreg_ally is a Python package designed to help users determine if Ordinary Least Squares (OLS) regression is an appropriate model for their data. The package automates key steps, including performing OLS regression, data formatting checks, assumption validation, and multicollinearity detection, ensuring the data meets the prerequisites for a reliable model.</p>
+<p>The project was part of the coursework of <em>DSCI 524 - Collaborative Software Development</em>, which emphasized incorporating version control, testing, continuous integration, and modular programming in data scientific workflows.</p>
+<p><strong>Highlights:</strong></p>
+<ul>
+<li>Published on PyPI along with a CI/CD pipeline for automated testing and deployment.</li>
+</ul>
+<p><strong>Tools used:</strong></p>
+<ul>
+<li>Python, Poetry, Cookiecutter, GitHub Actions, pytest</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
