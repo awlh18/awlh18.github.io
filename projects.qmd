@@ -15,11 +15,11 @@ Recognizing the potential value from the initial analysis, the project evolved i
 
 **Highlights:**  
 
-- Trained and deployed Linear and Poisson Regression models using historical sales and weather data to forecast daily revenue and order volumes, achieving prediction errors within 8\% of average sales and 10\% of average orders.
+- Trained and deployed Linear and Poisson Regression models to forecast daily revenue and order volume, achieving prediction errors within 8\% of average sales and 10\% of average orders.
 
-- Incorporated model diagnostics to enable users monitor performance and validity of each forecasting model, helping guide future model retraining and selection efforts.
+- Implemented model diagnostics to help users monitor model performance and validity, supporting future retraining and model selection efforts.
 
-- Developed a pipeline that enables cafe staff to easily retrain prediction models and refresh dashboard visualizations as new sales data becomes available. 
+- Developed a pipeline enabling cafe staff to easily retrain forecasting models and refresh dashboard visualizations as new sales data becomes available. 
 
 **Tools used:**  
 
