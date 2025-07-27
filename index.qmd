@@ -37,7 +37,7 @@ In my spare time, I enjoy playing soccer, pouring latte art, and snowboarding at
 - **Languages**: Python, R, SQL
 - **Machine Learning**: Regression, ensemble methods (Random Forest, XGBoost), clustering (k-means, DBSCAN), neural networks 
 - **Statistics**: Hypothesis testing, A/B testing, multivariate testing, non-parametric tests, power analysis, time series, Bayesian inference
-- **Data Visualization:** Tableau, plotly, matplotlib, altair, ggplot2
+- **Data Visualization:** Tableau, PowerBI, plotly, matplotlib, altair, ggplot2
 - **DevOps Tools:** Git, GitHub Actions, Make, Docker
 - **Cloud Platforms:** AWS (S3, EC2)
 

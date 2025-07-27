@@ -4,7 +4,7 @@ page-layout: full
 toc: false 
 ---
 
-#### SweetPulse
+#### SweetPulse 
 *Personal Project, Vancouver-based dessert cafe (name protected under NDA, references available upon request)*  
  [github.com/awlh18/SweetPulse](https://github.com/awlh18/SweetPulse) 
 
@@ -25,12 +25,14 @@ Recognizing the potential value from the initial analysis, the project evolved i
 
 - Python, pandas, NumPy, scikit-learn, statsmodels, Docker, Streamlit, plotly, pandera, Make
 
+<br>
+
 #### PhishSense 2.0
 *UBC MDS Capstone Project, UBC Cybersecurity*  
  [github.com/awlh18/phishsense-2.0](https://github.com/awlh18/phishsense-2.0) 
 
 **About the project:**  
-One of UBC Cybersecurity's core responsibilities involves protecting UBC email users from phishing attacks. While the team currently employs a machine learning pipeline to classify reported emails, its limited performance necessitates manual review by a human analyst to determine the appropriate course of action – a process made difficult by the high-volume of reported emails and time sensitivity in addressing these threats. 
+One of UBC Cybersecurity's core responsibilities involves protecting UBC email users from phishing attacks. While the team employs machine learning to classify reported emails, the existing model relies solely on word occurrences in the header and body of an email to make predictions, which offers limited performance and necessitates manual review by a human analyst. This process is made difficult by the high-volume of reported emails and time sensitivity in addressing these threats. 
 
 The project aims to develop a new machine learning pipeline that accurately identifies benign emails from suspicious emails, thereby reducing the number of tickets requiring manual review. The solution shortens response time to true malicious threats, reduces manual workload, and strengthens UBC’s cybersecurity.  
 
@@ -51,6 +53,8 @@ The project aims to develop a new machine learning pipeline that accurately iden
 **Tools used:**  
 
 - Python, pandas, scikit-learn, XGBoost, Podman, matplotlib, Flask, pandera, email, Click, Make, regex 
+
+<br>
 
 #### linreg_ally
 *UBC MDS Academic Project*  
