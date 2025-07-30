@@ -161,10 +161,10 @@ One of UBC Cybersecurity’s core responsibilities involves protecting UBC email
 <p>The project aims to develop a new machine learning pipeline that accurately identifies benign emails from suspicious emails, thereby reducing the number of tickets requiring manual review. The solution shortens response time to true malicious threats, reduces manual workload, and strengthens UBC’s cybersecurity.</p>
 <p><strong>Highlights:</strong></p>
 <ul>
-<li><p>Built a data preprocessing pipeline to transform raw email files into structured tabular data with extracted metadata and content features for downstream analysis and model training.</p></li>
 <li><p>Explored a range of approaches, including classical machine learning models, Bidirectional Encoder Representations from Transformers (BERT) based models, and large language models (LLMs).</p></li>
 <li><p>Final data product employs a stacking classifier with four XGBoost base-estimators (each learning from a different set of email features) and a Support Vector Classifier as the final classifier.</p></li>
 <li><p>Achieved an F1-Score of 0.75 for benign email classification, representing an improvement of 0.20 over existing model. Performance gain projected to reduce manual review time by 10 hours per month.</p></li>
+<li><p>Built a data preprocessing pipeline to transform raw email files into structured tabular data with extracted metadata and content features for downstream analysis and model training.</p></li>
 <li><p>Incorporated pipeline into a containerized web service for integration into UBC Cybersecurity’s existing incident response workflow.</p></li>
 <li><p>Presented model design and projected operational efficiencies to UBC IT leadership, translating technical results into business insights.</p></li>
 </ul>

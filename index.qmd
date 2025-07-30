@@ -22,7 +22,7 @@ about:
 
 I recently completed a Master of Data Science (MDS) from the University of British Columbia (UBC), building on my undergraduate background in Economics and Statistics. 
 
-Prior to MDS, I spent three and a half years with [Deloitte Vancouver's Transfer Pricing practice](https://awlh18.github.io/experience.html) where I assisted multinational companies  develop, defend and document pricing strategies for their cross-border intercompany transactions. I found myself increasingly drawn to solving real-world problems through quantitative methods while working with complex financial and operational data, which led me to pursue further training in  data science.
+Prior to MDS, I spent three and a half years with [Deloitte Vancouver's Transfer Pricing practice](https://awlh18.github.io/experience.html) where I developed and defended pricing strategies for multinational companies' cross-border transactions. I found myself increasingly drawn to solving real-world problems through quantitative methods while working with complex financial and operational data, which led me to pursue further training in  data science.
 
 I am interested in applying statistical and machine learning techniques to drive better decision-making and business outcomes. Some of my recent work include building a business intelligence tool for a Vancouver-based dessert cafe to support daily operations planning, and co-developing a machine learning pipeline for UBC Cybersecurity to reduce response time to malicious email threats. You can learn more about my data projects [here](https://awlh18.github.io/projects.html).
 
