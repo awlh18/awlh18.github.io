@@ -48,13 +48,13 @@ The project aims to develop a new machine learning pipeline that accurately iden
 
 - Built a data preprocessing pipeline to transform raw email files into structured tabular data with extracted metadata and content features for downstream analysis and model training.
 
-- Incorporated pipeline into a containerized web service for integration into UBC Cybersecurity’s existing incident response workflow.
+- Incorporated pipeline into a web service for integration into UBC Cybersecurity’s existing incident response workflow.
 
 - Presented model design and projected operational efficiencies to UBC IT leadership, translating technical results into business insights. 
 
 **Tools used:**  
 
-- Python, pandas, scikit-learn, XGBoost, Podman, matplotlib, Flask, pandera, email, Click, Make, regex 
+- Python, pandas, scikit-learn, XGBoost, matplotlib, Flask, pandera, email, Click, Make, regex 
 
 <br>
 
