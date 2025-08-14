@@ -15,11 +15,13 @@ Recognizing the potential value from the analysis, the project evolved into a fo
 
 **Highlights:**  
 
+- Conducted exploratory and statistical analyses to understand key revenue drivers, sales trends, and seasonality; identified items with strong weather correlation and quantified impact of independent business campaigns on sales.
+
 - Trained and deployed Linear and Poisson Regression models to forecast daily revenue and order volume, achieving prediction errors within 8\% of average sales and 10\% of average orders.
 
-- Implemented model diagnostics to help users monitor model performance and validity, supporting future retraining and model selection efforts.
+- Created a Streamlit dashboard application to monitor KPIs, visualize insights, and access demand forecasts; integrated a retraining pipeline allowing cafe staff to update models and dashboard with new data.
 
-- Developed a pipeline enabling cafe staff to easily retrain forecasting models and refresh dashboard visualizations as new sales data becomes available. 
+- Implemented model diagnostics to help users monitor model performance and validity, supporting future retraining and model selection efforts.
 
 **Tools used:**  
 

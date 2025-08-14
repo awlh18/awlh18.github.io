@@ -22,7 +22,7 @@ about:
 
 I recently completed a Master of Data Science (MDS) from the University of British Columbia (UBC), building on my undergraduate background in Economics and Statistics. 
 
-Prior to MDS, I spent three and a half years with [Deloitte Vancouver's Transfer Pricing practice](https://awlh18.github.io/experience.html) where I developed and defended pricing strategies for multinational companies' cross-border transactions. I found myself increasingly drawn to solving real-world problems through quantitative methods while working with complex financial and operational data, which led me to pursue further training in  data science.
+Prior to MDS, I spent 3.5 years with [Deloitte Vancouver's Transfer Pricing practice](https://awlh18.github.io/experience.html) where I developed and defended pricing strategies for multinational companies' cross-border transactions. I found myself increasingly drawn to solving real-world problems through quantitative methods while working with complex financial and operational data, which led me to pursue further training in data science.
 
 I am interested in applying statistical and machine learning techniques to drive better decision-making and business outcomes. Some of my recent work include building a business intelligence tool for a Vancouver-based dessert cafe to support daily operations planning, and co-developing a machine learning pipeline for UBC Cybersecurity to reduce response time to malicious email threats. You can learn more about my data projects [here](https://awlh18.github.io/projects.html).
 
@@ -34,10 +34,10 @@ In my spare time, I enjoy playing soccer, pouring latte art, and snowboarding at
 - **BA Combined Major in Economics and Statistics** | UBC, 2020
 
 #### Technical Skills
-- **Languages**: Python, R, SQL
-- **Machine Learning**: Regression, ensemble methods (Random Forest, XGBoost), clustering (k-means, DBSCAN), neural networks 
-- **Statistics**: Hypothesis testing, A/B testing, multivariate testing, non-parametric tests, power analysis, time series, Bayesian inference
-- **Data Visualization:** Tableau, PowerBI, plotly, matplotlib, altair, ggplot2
+- **Languages**: Python (pandas, NumPy), SQL, R (tidyverse)
+- **Data analysis**: Statistical testing (A/B testing, hypothesis testing, power analysis, Bayesian inference, non-parametric tests), time series
+- **Data Visualization:** Tableau, plotly, matplotlib, altair, ggplot2
+- **Machine Learning**: Linear Regression, Generalized Linear Models (GLMs), ensemble methods, clustering methods
 - **DevOps Tools:** Git, GitHub Actions, Make, Docker
 - **Cloud Platforms:** AWS (S3, EC2)
 
