@@ -36,10 +36,9 @@ In my spare time, I enjoy playing soccer, pouring latte art, and snowboarding at
 #### Technical Skills
 - **Languages**: Python (pandas, NumPy), SQL, R (tidyverse)
 - **Data analysis**: Statistical testing (A/B testing, hypothesis testing, power analysis, Bayesian inference, non-parametric tests), time series
-- **Data Visualization:** Tableau, plotly, matplotlib, altair, ggplot2
+- **Data Visualization:** Tableau, Power BI, Streamlit, plotly, matplotlib, altair, ggplot2
 - **Machine Learning**: Linear Regression, Generalized Linear Models (GLMs), ensemble methods, clustering methods
-- **DevOps Tools:** Git, GitHub Actions, Make, Docker
-- **Cloud Platforms:** AWS (S3, EC2)
+- **DevOps & Cloud Tools:** Git, Make, Docker, Azure DataBricks, AWS (S3, EC2) 
 
 
 

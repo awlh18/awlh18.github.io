@@ -28,6 +28,7 @@ Recognizing the potential value from the analysis, the project evolved into a fo
 - Python, pandas, NumPy, scikit-learn, statsmodels, Docker, Streamlit, plotly, pandera, Make
 
 <br>
+--
 
 #### PhishSense 2.0
 *UBC MDS Capstone Project, UBC Cybersecurity*  
@@ -57,6 +58,27 @@ The project aims to develop a new machine learning pipeline that accurately iden
 - Python, pandas, scikit-learn, XGBoost, matplotlib, Flask, pandera, email, Click, Make, regex 
 
 <br>
+--
+
+#### Vancouver Condo Market Tracker 
+*Personal Project*  
+ [github.com/awlh18/CondoTracker](https://github.com/awlh18/CondoTracker) 
+
+**About the project:**  
+An interactive Tableau dashboard that provides a holistic view on City of Vancouver's condo market alongside other indicators of the Canadian mortgage market. 
+
+The dashboard highlights Vancouver’s condo market activities, such as housing starts, completions, and inventory levels. It also tracks mortgage rate trends, origination volumes, and household financial vulnerability, offering a comprehensive view of market sentiment. The objective is to help real estate market participants, such as realtors, investors, renters and policymakers make more informed decisions. 
+
+Data are sourced from publically available data provided by the Bank of Canada (BoC) and the Canada Mortgage and Housing Corporation (CMHC) via public APIs.
+
+**Tools used:**  
+
+- Python, pandas, numpy, requests, rpy2, R, Tableau
+
+
+<br>
+--
+
 
 #### linreg_ally
 *UBC MDS Academic Project*  
