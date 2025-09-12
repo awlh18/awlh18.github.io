@@ -4,17 +4,20 @@ page-layout: full
 toc: false 
 ---
 
-**Analyst / Senior Analyst, Transfer Pricing,** *Deloitte LLP, Vancouver, BC*   
+**Analyst / Senior Analyst, Transfer Pricing & Cross-Border Tax**  
+*Deloitte LLP, Vancouver, BC*   
 *Mar 2021 - Aug 2024*  
 
 - Developed, defended, and documented data-driven pricing strategies for cross-border transactions within multinational companies, ensuring regulatory compliance and tax efficiency.
+
+- Managed multiple client projects; translated complex transfer pricing issues into clear project scopes, maintained client communication to ensure smooth delivery, and presented findings effectively to non-technical audiences.
   
-- Led preparation of a management fee model for a public mining company, calculating over \$5 million in charges to foreign subsidiaries; presented model mechanics and recommendations to key stakeholders, earning client praise for clarity and meeting a tight audit timeline.
+- Led preparation of a cost allocation model for a public mining company, integrating trial balance and operational data to calculate over $5 million in charges to foreign subsidiaries; presented model mechanics and recommendations to key stakeholders, earning client praise for clarity and meeting a tight audit timeline.
   
-- Analyzed financial and operational data to build credit rating models for assessing corporate creditworthiness and pricing intra-group loans; conducted scenario analysis and built financial models to support recommendations. 
+- Analyzed client financial and operational data to develop credit rating models in Excel for pricing intra-group loans; conducted scenario analysis and built financial models to support recommendations. 
+
+- Identified non-compliant transactions by analyzing client financial and transactional data, enabling timely mitigation of audit risk.
   
 - Conducted cost analysis for a global apparel company by transforming unstructured operational data to evaluate Canadian manufacturing margins against market benchmarks; communicated results to key stakeholders to support annual transfer pricing documentation.
   
-- Led multiple client projects as engagement manager; translated complex transfer pricing issues into clear project scopes, maintained proactive client communication to ensure smooth delivery, and presented findings effectively to stakeholders. 
-
 - Identified a new business opportunity and supported the Lead Partner in securing an advisory engagement with a public biotech company in Q2 2023.
